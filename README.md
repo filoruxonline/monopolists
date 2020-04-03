@@ -6,4 +6,6 @@ Look [here](https://docs.hivedb.dev/#/custom-objects/type_adapters) for more inf
 
 To get started look in the test folder.
 
-Feel free to commit or submit issues!
+To add an extension follow the following actions:
+  1) Add to the extensions enum <engine/extensions/extensions.dart>
+  2) 
