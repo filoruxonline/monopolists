@@ -7,10 +7,10 @@ Look [here](https://docs.hivedb.dev/#/custom-objects/type_adapters) for more inf
 To get started look in the test folder.
 
 To add an extension follow the following actions:
-  1) Add to the extensions enum [/engine/extensions/extensions.dart](./engine/extensions/extensions.dart)
+  1) Add to the extensions enum [/engine/extensions/extensions.dart](../engine/extensions/extensions.dart)
   2) Add these methods to class:
     1)Widget icon(double size)
     2)List<Info> getInfo()
     3)Constructor: Check Game.data.extensions.contains(Extension.$extension)
       Add listeners to events: Game.events.add($GameEevent,$Function)
-  3) Construct class in launch method in [/engine/main.dart](./engine/main.dart)
+  3) Construct class in launch method in [/engine/main.dart](../../engine/main.dart)
