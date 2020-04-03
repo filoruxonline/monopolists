@@ -6,4 +6,4 @@ Look [here](https://docs.hivedb.dev/#/custom-objects/type_adapters) for more inf
 
 To get started look in the test folder.
 
-Feel free to commit!
+Feel free to commit or submit issues!
