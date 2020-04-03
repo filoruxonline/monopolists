@@ -9,8 +9,8 @@ To get started look in the [test folder](../../tree/master/engine/test/engine_te
 To add an extension follow the following actions:
   1) Add to the extensions enum [/engine/extensions/extensions.dart](../../tree/master/engine/kernel/extensions/extensions.dart)
   2) Add these methods to class:\
-    1)static Widget icon(double size)\
-    2)static List<Info> getInfo()\
-    3)Constructor: Check Game.data.extensions.contains(Extension.$extension)
+    I) static Widget icon(double size)\
+    II) static List<Info> getInfo()\
+    III) Constructor: Check Game.data.extensions.contains(Extension.$extension)
       Add listeners to events: Game.events.add($GameEevent,$Function)
   3) Construct class in launch method in [/engine/main.dart](../../tree/master/engine/kernel/main.dart)
